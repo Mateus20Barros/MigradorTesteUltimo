@@ -91,6 +91,7 @@
             this.txbData.Name = "txbData";
             this.txbData.Size = new System.Drawing.Size(430, 31);
             this.txbData.TabIndex = 4;
+            this.txbData.TextChanged += new System.EventHandler(this.txbData_TextChanged);
             // 
             // label1
             // 

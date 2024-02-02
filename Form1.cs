@@ -134,7 +134,12 @@ namespace MigradorTeste
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Teste Aqui 123");
+            MessageBox.Show("Teste Aqui 123 zzzz");
+        }
+
+        private void txbData_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
