@@ -14,6 +14,9 @@ namespace MigradorTeste
 {
     public partial class Form1 : Form
     {
+        private int mov;
+        private int movX;
+        private int movY;
         public string servidor = Environment.MachineName.ToString();
         public string conexaoAoBD;
         public string caminhoLog;
@@ -134,12 +137,36 @@ namespace MigradorTeste
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Teste Aqui 123 zzzz");
+            MessageBox.Show("Fechando sistema");
+            Application.Exit();
         }
 
         private void txbData_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+ 
+
+       
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mov = 1; movX = e.X; movY = e.Y;
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mov == 1)
+                this.SetDesktopLocation(MousePosition.X - movX, MousePosition.Y - movY);
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            mov = 0;
         }
     }
 }
