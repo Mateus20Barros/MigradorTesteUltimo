@@ -80,7 +80,7 @@ namespace MigradorTeste
                         {
                             comandoSqlCriarBD.ExecuteNonQuery();
                             MessageBox.Show($"Banco de dados {nomeBD} criado com sucesso !!!");
-                            CcarregarDados(conexaoAoBD);
+                            CarregarDados(conexaoAoBD);
                         }
                         else
                         {
@@ -125,7 +125,7 @@ namespace MigradorTeste
                                 {
                                     comandoSqlDroparBD.ExecuteNonQuery();
                                     MessageBox.Show($"Banco de dados {nomeBD} removido com sucesso !!!");
-                                    CcarregarDados(conexaoAoBD);
+                                    CarregarDados(conexaoAoBD);
                                 }
                                 else
                                 {
@@ -164,8 +164,8 @@ namespace MigradorTeste
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //O CcarregarDados é onde carrega a listagem de todos os bancos no comboBox1 
-            CcarregarDados(conexaoAoBD);
+            //O CarregarDados é onde carrega a listagem de todos os bancos no comboBox1 
+            CarregarDados(conexaoAoBD);
             string atualiza = "TERMINA O MAX_ATUALIZA AI MANÉ";
             MessageBox.Show(atualiza);
         }
@@ -227,7 +227,7 @@ namespace MigradorTeste
 
         }
 
-        public void CcarregarDados(string connectionString)
+        public void CarregarDados(string connectionString)
         {
             SqlConnection con = new SqlConnection(connectionString);
 
@@ -257,7 +257,7 @@ namespace MigradorTeste
 
         private void AtualizaBanco_Click(object sender, EventArgs e)
         {
-            CcarregarDados(conexaoAoBD);
+            CarregarDados(conexaoAoBD);
         }
 
         private void MaxAtualiza_Click(object sender, EventArgs e)
