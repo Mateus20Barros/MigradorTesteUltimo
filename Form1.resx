@@ -117,4 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="atualizaBanco.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAxJJREFUWEfFllmITmEYxwfDYEYpF8akFEIoGkozRbMYhOxZY+TC3GCaUoosKcoF
+        WW5MlrKUpdTYl7KECxeIkCyRfcuSpcjF5/f/zvN553xz+BbnjF/9mnee5znnOd/3ve973pxUxGKxPByG
+        y3AvXsEn+AF/mhorptweXIpDMc9ukzlcXI5q+A2zRdfqgcrstqmhuD+ew7A5i32tTTAUjMIvqo6IzzjS
+        2vkh0QU/qipiNF8Kra2D4Jx4unmYbW0dBCu8XLNQbm0dBFvgkXg6WhqspR8SBdgWd6kqInai9pUCa+sg
+        WIurMBe1B1zCsLiIZdgaV2OttXUQrENxA8ehfpI+uBIv4HdMF9XqmhXYG3Wv8XgTRZ21dSjo5X5zH5fj
+        ANQN9PS9cAzOx8WoBlJjxUajalSrawai8g+wMYEPMNfLBfIWT+E6XID6hobjYFNjxZRTzWl8h3+i2to6
+        CBbi+3g6WtSjs7X1Q6ISP6kqIrTTVlg7PyRKsCP2xMMYNg3YA9Wj1No6CGoSPsQq+78Yt+AbzJbXuBmL
+        7Z4jUD1SrgKt26nYDjWb+2ENbsCjeBV1oxemxooppxrVxl+9/G2P0/AyJgh8gEVezodezZrRa3AidsM2
+        dkkTlLMa1a7FM/gVk1lolzgIlnq5tNBJ5zneNjXO5ORUYm39kNju5SOl3tr5IZGPLVFb7w8Mg6e4G/WT
+        6LS1BDWn8q2tg6BeRto2tY12x22oI1S2PMZJqC36ER5CnZa1PddYWwfBxCq4hVoBrVAzeDJqKV3HdH5n
+        TbprOB21jJOZgJXW1kEw+WX0EjehLuhqZaorwkGoE9RYU2PFiqxMdUPwLooZuNEbxs5jBytzENSn/huv
+        8ATuwPWoN6WWrtRYMeVOojagKtQ3IRo/wHEMnAOahPdUERJquNUb+piCudbWDwnt1XdUFQJaATqEzEOd
+        LQ6iVkEnaxcMBfom9JX+ywpI8AwPoN4BmjvBnzwIinVIrUb9Ztk8jK45hrpH00NoJnADHVQ1y2ehNqp6
+        3I96bct9FlNuJqo2/U/7/8jJ+QXcuMHMBGuIHwAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>
